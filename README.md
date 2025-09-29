@@ -1,2 +1,2 @@
-# ECRA-Members-MC-Stats
+# ECRA-Members-Stats
 Lists how good everyone is
