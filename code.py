@@ -13,6 +13,7 @@ xxfunRank = 9
 finxllyRank = 10
 batchiRank = 11
 aXc3LRank = 12
+xRayzRank = 13
 if listOfECRAMembers == 'yes':
   print('1. CreepSplotion')
   print('2. Ennard')
@@ -26,11 +27,12 @@ if listOfECRAMembers == 'yes':
   print('10. Finxlly (Not finxl due to joining recently (haha get it?))')
   print('11. Batchi (Not final due to joining recently)')
   print('12. aXc3L (Not final due to joining recently)')
+  print('13. XRayz (Not final due to joining recently)')
 
 ifacceptanceRate = input('Do you want to see a timeline of ECRA acceptance?(yes/no): ')
 
 if (ifacceptanceRate == 'yes'):
-  print('ECRA had 3 members initially, accepted 1 member in 2018, 0 members in 2019, 0 members in 2020, 0 members in 2021, 0 members in 2022, 0 members in 2023, 0 members in 2024, and 8 members in 2025')
+  print('ECRA had 3 members initially, accepted 1 member in 2018, 0 members in 2019, 0 members in 2020, 0 members in 2021, 0 members in 2022, 0 members in 2023, 0 members in 2024, and 9 members in 2025')
 
 userPlayer = input('What player would you like to see the stats of?: ')
 
@@ -279,3 +281,26 @@ if (userPlayer == 'Quilver'):
     print('QuietestQuil')
     print('BannedBruh (Quil lost a bet to ReapSplotion and got banned from CR)')
     print('ECRAQuil')
+
+if (userPlayer == 'XRayz'):
+  print("XRayz's username is ECRAXRayz")
+  print(f'XRayz is rank #{xRayzRank} out of all ECRA members')
+  xRayzRankHistory = input("Do you want to see XRayz's rank history?(yes/no): ")
+
+  if xRayzRankHistory == 'yes':
+    print('XRayz joined Fall 2025')
+    print('2025: #13')
+  XRayzPastUsernames = input("Do you want to see XRayz's past usernames?(yes/no): ")
+
+  if (xRayzPastUsernames == 'yes'):
+    print('IXRayForFun')
+    print('XRayz')
+    print('Xrayz')
+    print('XRayzAM')
+    print('ISeeThroughWalls')
+    print('XRaaaaaaayz')
+    print('XXRayz')
+    print('RSXRayz')
+    print('RCXRayz')
+    print('CRXRayz')
+    print('CRXRaaaaaaayz')
