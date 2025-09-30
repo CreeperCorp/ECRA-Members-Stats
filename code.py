@@ -16,7 +16,7 @@ if listOfECRAMembers == 'yes':
   print('11. aXc3L (Not final due to joining recently)')
   print('12. Quilver (Not final due to joining recently')
 
-ifacceptanceRate = input('Do you want to see a timeline of ECRA acceptance?(yes/no)')
+ifacceptanceRate = input('Do you want to see a timeline of ECRA acceptance?(yes/no): ')
 
 if (ifacceptanceRate == 'yes'):
   print('ECRA had 3 members initially, accepted 1 member in 2018, 0 members in 2019, 0 members in 2020, 0 members in 2021, 0 members in 2022, 0 members in 2023, 0 members in 2024, and 8 members in 2025')
