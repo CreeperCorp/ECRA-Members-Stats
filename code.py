@@ -240,7 +240,7 @@ if (userPlayer == 'Quilver'):
   print('Quilver is rank #12 out of all ECRA members')
   quilverRankHistory = input("Do you want to see Quilver's rank history?(yes/no): ")
 
-  if quilverLRankHistory == 'yes':
+  if quilverRankHistory == 'yes':
     print('Quilver joined Fall 2025')
     print('2025: #12')
   quilverPastUsernames = input("Do you want to see Quilver's past usernames?(yes/no): ")
