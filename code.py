@@ -8,13 +8,13 @@ if listOfECRAMembers == 'yes':
   print('3. ReapSplotion')
   print('4. Division')
   print('5. Giggles')
-  print('6. CreepYT')
-  print('7. Dash')
-  print('8. XxFun')
-  print('9. Finxlly (Not finxl due to joining recently (haha get it?))')
-  print('10. Batchi (Not final due to joining recently)')
-  print('11. aXc3L (Not final due to joining recently)')
-  print('12. Quilver (Not final due to joining recently')
+  print('6. Quilver')
+  print('7. CreepYT')
+  print('8. Dash')
+  print('9. XxFun')
+  print('10. Finxlly (Not finxl due to joining recently (haha get it?))')
+  print('11. Batchi (Not final due to joining recently)')
+  print('12. aXc3L (Not final due to joining recently)')
 
 ifacceptanceRate = input('Do you want to see a timeline of ECRA acceptance?(yes/no): ')
 
@@ -132,13 +132,13 @@ if (userPlayer == 'Giggles'):
 
 if (userPlayer == 'CreepYT'):
   print("CreepYT's username is CreepYT8451")
-  print('CreepYT is rank #6 out of all ECRA members')
+  print('CreepYT is rank #7 out of all ECRA members')
   print("From now on we'll refer to CreepYT as his real name which is Cillian")
   cillianRankHistory = input("Do you want to see Cillian's rank history?(yes/no): ")
 
   if cillianRankHistory == 'yes':
     print('Cillian joined Summer 2025')
-    print('2025: #6')
+    print('2025: #7')
   cillianPastUsernames = input("Do you want to see Cillian's past usernames?(yes/no): ")
 
   if (cillianPastUsernames == 'yes'):
@@ -146,12 +146,12 @@ if (userPlayer == 'CreepYT'):
 
 if (userPlayer == 'Dash'):
   print("Dash's username is Dashturle09")
-  print('Dash is rank #7 out of all ECRA members')
+  print('Dash is rank #8 out of all ECRA members')
   dashRankHistory = input("Do you want to see Dash's rank history?(yes/no): ")
 
   if dashRankHistory == 'yes':
     print('Dash joined Winter 2025')
-    print('2025: #7')
+    print('2025: #8')
   dashPastUsernames = input("Do you want to see Dash's past usernames?(yes/no): ")
 
   if (dashPastUsernames == 'yes'):
@@ -159,12 +159,12 @@ if (userPlayer == 'Dash'):
 
 if (userPlayer == 'XxFun'):
   print("XxFun's username is XxFunWasTaken")
-  print('XxFun is rank #8 out of all ECRA members')
+  print('XxFun is rank #9 out of all ECRA members')
   xxfunRankHistory = input("Do you want to see XxFun's rank history?(yes/no): ")
 
   if xxfunRankHistory == 'yes':
     print('XxFun joined Winter 2025')
-    print('2025: #8')
+    print('2025: #9')
   xxfunPastUsernames = input("Do you want to see XxFun's past usernames?(yes/no): ")
 
   if (xxfunPastUsernames == 'yes'):
@@ -172,12 +172,12 @@ if (userPlayer == 'XxFun'):
 
 if (userPlayer == 'Finxlly'):
   print("Finxlly's username is ECRAFinxlly")
-  print('Finxlly is rank #9 out of all ECRA members')
+  print('Finxlly is rank #10 out of all ECRA members')
   finxllyRankHistory = input("Do you want to see Finxlly's rank history?(yes/no): ")
 
   if finxllyRankHistory == 'yes':
     print('Finxlly joined Fall 2025')
-    print('2025: #9')
+    print('2025: #10')
   finxllyPastUsernames = input("Do you want to see Finxlly's past usernames?(yes/no): ")
 
   if (finxllyPastUsernames == 'yes'):
@@ -194,12 +194,12 @@ if (userPlayer == 'Finxlly'):
 
 if (userPlayer == 'Batchi'):
   print("Batchi's username is ECRABatchi")
-  print('Batchi is rank #10 out of all ECRA members')
+  print('Batchi is rank #11 out of all ECRA members')
   batchiRankHistory = input("Do you want to see Batchi's rank history?(yes/no): ")
 
   if batchiRankHistory == 'yes':
     print('Batchi joined Fall 2025')
-    print('2025: #10')
+    print('2025: #11')
   batchiPastUsernames = input("Do you want to see Batchi's past usernames?(yes/no): ")
 
   if (batchiPastUsernames == 'yes'):
@@ -216,12 +216,12 @@ if (userPlayer == 'Batchi'):
 
 if (userPlayer == 'aXc3L'):
   print("aXc3L's username is ECRAaXc3L")
-  print('aXc3L is rank #11 out of all ECRA members')
+  print('aXc3L is rank #12 out of all ECRA members')
   aXc3LRankHistory = input("Do you want to see aXc3L's rank history?(yes/no): ")
 
   if aXc3LRankHistory == 'yes':
     print('aXc3L joined Fall 2025')
-    print('2025: #11')
+    print('2025: #12')
   aXc3LPastUsernames = input("Do you want to see aXc3L's past usernames?(yes/no): ")
 
   if (aXc3LPastUsernames == 'yes'):
@@ -237,12 +237,12 @@ if (userPlayer == 'aXc3L'):
 
 if (userPlayer == 'Quilver'):
   print("Quilver's username is ECRAQuiliest")
-  print('Quilver is rank #12 out of all ECRA members')
+  print('Quilver is rank #6 out of all ECRA members')
   quilverRankHistory = input("Do you want to see Quilver's rank history?(yes/no): ")
 
   if quilverRankHistory == 'yes':
     print('Quilver joined Fall 2025')
-    print('2025: #12')
+    print('2025: #6')
   quilverPastUsernames = input("Do you want to see Quilver's past usernames?(yes/no): ")
 
   if (quilverPastUsernames == 'yes'):
