@@ -213,7 +213,7 @@ if (userPlayer == 'aXc3L'):
   if aXc3LRankHistory == 'yes':
     print('aXc3L joined in 2025')
     print('2025: #11')
-  batchiPastUsernames = input("Do you want to see aXc3L's past usernames?(yes/no): ")
+  aXc3LPastUsernames = input("Do you want to see aXc3L's past usernames?(yes/no): ")
 
   if (aXc3LPastUsernames == 'yes'):
     print('aXc3L')
