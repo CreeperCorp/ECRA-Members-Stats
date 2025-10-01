@@ -3,17 +3,32 @@ print('ECRA accepts members whenever but you have a higher chance to get in if y
 listOfECRAMembers = input('Do you want a list of all ECRA members ranked?(yes/no): ')
 creepRank = 1
 ennardRank = 2
+ennardRank2026 = 2
 reapRank = 3
+reapRank2025 = 3
 divisionRank = 4
+divisionRank2025 = 4
 gigglesRank = 5
+gigglesRank2025 = 5
 quilverRank = 6
 creepYTRank = 7
-dashRank = 8
-xxfunRank = 9
-finxllyRank = 10
-batchiRank = 11
-aXc3LRank = 12
-xRayzRank = 13
+r3zzignationRank = 8
+dashRank = 9
+xxfunRank = 10
+finxllyRank = 11
+batchiRank = 12
+aXc3LRank = 13
+xRayzRank = 14
+quilverRank2025 = 6
+creepYTRank2025 = 7
+r3zzignationRank2025 = 8
+dashRank2025 = 9
+xxfunRank2025 = 10
+finxllyRank2025 = 11
+batchiRank2025 = 12
+aXc3LRank2025 = 13
+xRayzRank2025 = 14
+members2025 = 10
 if listOfECRAMembers == 'yes':
   print('1. CreepSplotion')
   print('2. Ennard')
@@ -22,17 +37,18 @@ if listOfECRAMembers == 'yes':
   print('5. Giggles')
   print('6. Quilver')
   print('7. CreepYT')
-  print('8. Dash')
-  print('9. XxFun')
-  print('10. Finxlly (Not finxl due to joining recently (haha get it?))')
-  print('11. Batchi (Not final due to joining recently)')
-  print('12. aXc3L (Not final due to joining recently)')
-  print('13. XRayz (Not final due to joining recently)')
+  print('8. R3zzignation')
+  print('9. Dash')
+  print('10. XxFun')
+  print('11. Finxlly (Not finxl due to joining recently (haha get it?))')
+  print('12. Batchi (Not final due to joining recently)')
+  print('13. aXc3L (Not final due to joining recently)')
+  print('14. XRayz (Not final due to joining recently)')
 
 ifacceptanceRate = input('Do you want to see a timeline of ECRA acceptance?(yes/no): ')
 
 if (ifacceptanceRate == 'yes'):
-  print('ECRA had 3 members initially, accepted 1 member in 2018, 0 members in 2019, 0 members in 2020, 0 members in 2021, 0 members in 2022, 0 members in 2023, 0 members in 2024, and 9 members in 2025')
+  print(f'ECRA had 3 members initially, accepted 1 member in 2018, 0 members in 2019, 0 members in 2020, 0 members in 2021, 0 members in 2022, 0 members in 2023, 0 members in 2024, and {Members2025} members in 2025')
 
 userPlayer = input('What player would you like to see the stats of?: ')
 
@@ -63,7 +79,7 @@ if (userPlayer == 'ReapSplotion'):
       print('2018: #2')
       print('2023: #3')
       print('2024: #4')
-      print('2025: #3')
+      print(f'2025: #{reapRank2025}')
     reapPastUsernames = input("Do you want to see ReapSplotion's past usernames?(yes/no): ")
 
     if (reapPastUsernames == 'yes'):
@@ -100,7 +116,7 @@ if (userPlayer == 'Division'):
     print('2018: #3')
     print('2023: #2')
     print('2024: #3')
-    print('2025: #4')
+    print(f'2025: #{divisionRank2025}')
   divisionPastUsernames = input("Do you want to see Division's past usernames?(yes/no): ")
 
   if (divisionPastUsernames == 'yes'):
@@ -131,7 +147,7 @@ if (userPlayer == 'Giggles'):
 
   if gigglesRankHistory == 'yes':
     print('Giggles joined Spring 2025')
-    print('2025: #5')
+    print(f'2025: #{gigglesRank2025}')
   gigglesPastUsernames = input("Do you want to see Giggles' past usernames?(yes/no): ")
 
   if (gigglesPastUsernames == 'yes'):
@@ -151,7 +167,7 @@ if (userPlayer == 'CreepYT'):
 
   if cillianRankHistory == 'yes':
     print('Cillian joined Summer 2025')
-    print('2025: #7')
+    print(f'2025: #{creepYTRank2025}')
   cillianPastUsernames = input("Do you want to see Cillian's past usernames?(yes/no): ")
 
   if (cillianPastUsernames == 'yes'):
@@ -164,7 +180,7 @@ if (userPlayer == 'Dash'):
 
   if dashRankHistory == 'yes':
     print('Dash joined Winter 2025')
-    print('2025: #8')
+    print(f'2025: #{dashRank2025}')
   dashPastUsernames = input("Do you want to see Dash's past usernames?(yes/no): ")
 
   if (dashPastUsernames == 'yes'):
@@ -177,7 +193,7 @@ if (userPlayer == 'XxFun'):
 
   if xxfunRankHistory == 'yes':
     print('XxFun joined Winter 2025')
-    print('2025: #9')
+    print(f'2025: #{xxfunRank2025}')
   xxfunPastUsernames = input("Do you want to see XxFun's past usernames?(yes/no): ")
 
   if (xxfunPastUsernames == 'yes'):
@@ -190,7 +206,7 @@ if (userPlayer == 'Finxlly'):
 
   if finxllyRankHistory == 'yes':
     print('Finxlly joined Fall 2025')
-    print('2025: #10')
+    print(f'2025: #{finxllyRank2025}')
   finxllyPastUsernames = input("Do you want to see Finxlly's past usernames?(yes/no): ")
 
   if (finxllyPastUsernames == 'yes'):
@@ -212,7 +228,7 @@ if (userPlayer == 'Batchi'):
 
   if batchiRankHistory == 'yes':
     print('Batchi joined Fall 2025')
-    print('2025: #11')
+    print(f'2025: #{batchiRank2025}')
   batchiPastUsernames = input("Do you want to see Batchi's past usernames?(yes/no): ")
 
   if (batchiPastUsernames == 'yes'):
@@ -234,7 +250,7 @@ if (userPlayer == 'aXc3L'):
 
   if aXc3LRankHistory == 'yes':
     print('aXc3L joined Fall 2025')
-    print('2025: #12')
+    print(f'2025: #{aXc3LRank2025}')
   aXc3LPastUsernames = input("Do you want to see aXc3L's past usernames?(yes/no): ")
 
   if (aXc3LPastUsernames == 'yes'):
@@ -255,7 +271,7 @@ if (userPlayer == 'Quilver'):
 
   if quilverRankHistory == 'yes':
     print('Quilver joined Fall 2025')
-    print('2025: #6')
+    print(f'2025: #{quilverRank2025}')
   quilverPastUsernames = input("Do you want to see Quilver's past usernames?(yes/no): ")
 
   if (quilverPastUsernames == 'yes'):
@@ -289,7 +305,7 @@ if (userPlayer == 'XRayz'):
 
   if xRayzRankHistory == 'yes':
     print('XRayz joined Fall 2025')
-    print('2025: #13')
+    print(f'2025: #{xRayzRank2025}')
   XRayzPastUsernames = input("Do you want to see XRayz's past usernames?(yes/no): ")
 
   if (xRayzPastUsernames == 'yes'):
@@ -304,3 +320,46 @@ if (userPlayer == 'XRayz'):
     print('RCXRayz')
     print('CRXRayz')
     print('CRXRaaaaaaayz')
+
+if (userPlayer == 'R3zzignation'):
+  print("R3zzignation's username is ECRAXR3zz")
+  print(f'R3zzignation is rank #{r3zzignationRank} out of all ECRA members')
+  r3zzignationRankHistory = input("Do you want to see R3zzigantion's rank history?(yes/no): ")
+
+  if r3zzignationRankHistory == 'yes':
+    print('R3zzignation joined Fall 2025')
+    print(f'2025: #{r3zzignationRank2025}')
+  r3zzignationPastUsernames = input("Do you want to see r3zzignation's past usernames?(yes/no): ")
+
+  if (r3zzignationPastUsernames == 'yes'):
+    print('R3zzignation has been in the most clans out of all ECRA members (24 clans)')
+    print('R3zzignation')
+    print('R3zz')
+    print('POR3zz')
+    print('POSTR3zz')
+    print('BuddyR3zz')
+    print('WOODR3zz')
+    print('KOR3zz')
+    print('LOSTR3zz')
+    print('EXR3zz')
+    print('QIR3zz')
+    print('CLLR3zz')
+    print('GBR3zz')
+    print('PCR3zz')
+    print('OKR3zz')
+    print('CHEZR3zz')
+    print('RRRR3zz')
+    print('WSR3zz')
+    print('BOR3zz')
+    print('KMR3zz')
+    print('CSR3zz')
+    print('PRR3zz')
+    print('FNR3zz')
+    print('FCR3zz')
+    print('DMGR3zz')
+    print('VCR3zz')
+    print('RCR3zz')
+    print('R3zzignation')
+    print('RCR3zz')
+    print('Resigned')
+    print('RCR3zz')
