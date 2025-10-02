@@ -363,3 +363,4 @@ if (userPlayer == 'R3zzignation'):
     print('RCR3zz')
     print('Resigned')
     print('RCR3zz')
+    print('RCR3zzz')
