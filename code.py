@@ -10,24 +10,24 @@ divisionRank = 4
 divisionRank2025 = 4
 gigglesRank = 5
 gigglesRank2025 = 5
-quilverRank = 6
-creepYTRank = 7
-r3zzignationRank = 8
-dashRank = 9
-xxfunRank = 10
-finxllyRank = 11
+quilverRank = 7
+creepYTRank = 9
+r3zzignationRank = 11
+dashRank = 13
+xxfunRank = 14
+finxllyRank = 6
 batchiRank = 12
-aXc3LRank = 13
-xRayzRank = 14
-quilverRank2025 = 6
-creepYTRank2025 = 7
-r3zzignationRank2025 = 8
-dashRank2025 = 9
-xxfunRank2025 = 10
-finxllyRank2025 = 11
+aXc3LRank = 8
+xRayzRank = 10
+quilverRank2025 = 7
+creepYTRank2025 = 9
+r3zzignationRank2025 = 11
+dashRank2025 = 13
+xxfunRank2025 = 14
+finxllyRank2025 = 6
 batchiRank2025 = 12
-aXc3LRank2025 = 13
-xRayzRank2025 = 14
+aXc3LRank2025 = 8
+xRayzRank2025 = 10
 members2025 = 10
 if listOfECRAMembers == 'yes':
   print('1. CreepSplotion')
@@ -35,15 +35,15 @@ if listOfECRAMembers == 'yes':
   print('3. ReapSplotion')
   print('4. Division')
   print('5. Giggles')
-  print('6. Quilver')
-  print('7. CreepYT')
-  print('8. R3zzignation')
-  print('9. Dash')
-  print('10. XxFun')
-  print('11. Finxlly (Not finxl due to joining recently (haha get it?))')
-  print('12. Batchi (Not final due to joining recently)')
-  print('13. aXc3L (Not final due to joining recently)')
-  print('14. XRayz (Not final due to joining recently)')
+  print('6. Finxlly')
+  print('7. Quilver')
+  print('8. aXc3L')
+  print('9. CreepYT')
+  print('10. XRayz')
+  print('11. R3zzignation')
+  print('12. Batchi')
+  print('13. Dash')
+  print('14. XxFun')
 
 ifacceptanceRate = input('Do you want to see a timeline of ECRA acceptance?(yes/no): ')
 
