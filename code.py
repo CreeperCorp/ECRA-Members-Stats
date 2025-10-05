@@ -309,7 +309,7 @@ if (userPlayer == 'XRayz'):
   if xRayzRankHistory == 'yes':
     print('XRayz joined Fall 2025')
     print(f'2025: #{xRayzRank2025}')
-  XRayzPastUsernames = input("Do you want to see XRayz's past usernames?(yes/no): ")
+  xRayzPastUsernames = input("Do you want to see XRayz's past usernames?(yes/no): ")
 
   if (xRayzPastUsernames == 'yes'):
     print('IXRayForFun')
