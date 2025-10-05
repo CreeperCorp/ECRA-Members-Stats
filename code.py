@@ -28,6 +28,8 @@ finxllyRank2025 = 6
 batchiRank2025 = 12
 aXc3LRank2025 = 8
 xRayzRank2025 = 10
+joc3eRank = 15
+joc3eRank2025 = 15
 members2025 = 10
 if listOfECRAMembers == 'yes':
   print('1. CreepSplotion')
@@ -44,6 +46,7 @@ if listOfECRAMembers == 'yes':
   print('12. Batchi')
   print('13. Dash')
   print('14. XxFun')
+  print('Joc3e')
 
 ifacceptanceRate = input('Do you want to see a timeline of ECRA acceptance?(yes/no): ')
 
@@ -364,3 +367,21 @@ if (userPlayer == 'R3zzignation'):
     print('Resigned')
     print('RCR3zz')
     print('RCR3zzz')
+
+if (userPlayer == 'Joc3e'):
+  print("Joc3e's username is ECRAJoc3e")
+  print(f'Joc3e is rank #{joc3eRank} out of all ECRA members')
+  joc3eRankHistory = input("Do you want to see Joc3e's rank history?(yes/no): ")
+
+  if joc3eRankHistory == 'yes':
+    print('Joc3e joined Fall 2025')
+    print(f'2025: #{joc3eRank2025}')
+  joc3ePastUsernames = input("Do you want to see joc3e's past usernames?(yes/no): ")
+
+  if (joc3ePastUsernames == 'yes'):
+    print('Joc3e')
+    print('FFJoc3e')
+    print('PRJoc3e')
+    print('QRJoc3e')
+    print('RSJoc3e')
+    print('RCJoc3e')
