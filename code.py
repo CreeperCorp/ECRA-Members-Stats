@@ -51,7 +51,7 @@ if listOfECRAMembers == 'yes':
 ifacceptanceRate = input('Do you want to see a timeline of ECRA acceptance?(yes/no): ')
 
 if (ifacceptanceRate == 'yes'):
-  print(f'ECRA had 3 members initially, accepted 1 member in 2018, 0 members in 2019, 0 members in 2020, 0 members in 2021, 0 members in 2022, 0 members in 2023, 0 members in 2024, and {Members2025} members in 2025')
+  print(f'ECRA had 3 members initially, accepted 1 member in 2018, 0 members in 2019, 0 members in 2020, 0 members in 2021, 0 members in 2022, 0 members in 2023, 0 members in 2024, and {members2025} members in 2025')
 
 userPlayer = input('What player would you like to see the stats of?: ')
 
