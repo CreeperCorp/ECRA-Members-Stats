@@ -46,7 +46,7 @@ if listOfECRAMembers == 'yes':
   print('12. Batchi')
   print('13. Dash')
   print('14. XxFun')
-  print('Joc3e')
+  print('15. Joc3e')
 
 ifacceptanceRate = input('Do you want to see a timeline of ECRA acceptance?(yes/no): ')
 
