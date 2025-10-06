@@ -1,3 +1,5 @@
+import sys
+
 print('ECRA accepts members whenever but you have a higher chance to get in if you apply at the beginning of a season.')
 
 listOfECRAMembers = input('Do you want a list of all ECRA members ranked?(yes/no): ')
