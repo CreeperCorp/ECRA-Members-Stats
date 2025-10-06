@@ -30,7 +30,7 @@ aXc3LRank2025 = 8
 xRayzRank2025 = 10
 joc3eRank = 15
 joc3eRank2025 = 15
-members2025 = 10
+members2025 = 11
 if listOfECRAMembers == 'yes':
   print('1. CreepSplotion')
   print('2. Ennard')
