@@ -1,6 +1,3 @@
-# Refactored ECRA Members Stats using lists and dictionaries
-# Now with improved error handling and input validation
-
 import sys
 
 def yes_no_prompt(prompt):
