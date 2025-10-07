@@ -1,6 +1,27 @@
 # Refactored ECRA Members Stats using lists and dictionaries
+# Now with improved error handling and input validation
 
 import sys
+
+def yes_no_prompt(prompt):
+    """Prompt user for a yes/no answer and validate."""
+    while True:
+        try:
+            answer = input(prompt).strip().lower()
+        except (EOFError, KeyboardInterrupt):
+            print("\nInput interrupted. Exiting.")
+            sys.exit()
+        if answer in ('yes', 'no'):
+            return answer == 'yes'
+        print("Please enter 'yes' or 'no'.")
+
+def get_input(prompt):
+    """Get user input, handle EOF/interrupt."""
+    try:
+        return input(prompt)
+    except (EOFError, KeyboardInterrupt):
+        print("\nInput interrupted. Exiting.")
+        sys.exit()
 
 print('ECRA accepts members whenever but you have a higher chance to get in if you apply at the beginning of a season.')
 
@@ -45,7 +66,7 @@ members = [
         "rank": 4,
         "rank2025": 4,
         "rank_history": ["2018: #3", "2023: #2", "2024: #3", "2025: #4"],
-        "past_usernames": ["BetterCreep", "DivideBy78", "Division404", "ExoticDivision", "CSDivision", "ReaperD", "ECRANo", "ECRAyes", "ECRABestMember", "CreepSplotionYT", "ECRADivision", "12LengthTables", "ECRAFiftyFour", "HistoricalName", "ImportantFile", "GoodUsername", "ECRAFinally", "ECRADivision", "EnnardViolateCode"],
+        "past_usernames": ["BetterCreep", "DivideBy78", "Division404", "ExoticDivision", "CSDivision", "ReaperD", "ECRANo", "ECRAyes", "ECRABestMember", "CreepSplotionYT", "ECRADivision", "12LengthTab"],
         "skin_mc": None,
         "best_game": "Fortnite",
         "ranks_by_game": {"Minecraft": 4, "Fortnite": 3, "Roblox": 4, "Geometry Dash": 4}
@@ -56,7 +77,7 @@ members = [
         "rank": 5,
         "rank2025": 5,
         "rank_history": ["2025: #5 (joined Spring 2025)"],
-        "past_usernames": ["ExoticGiggles (He wasn't actually in EC)", "ECRAGiggles", "ECRANumber5", "ECRANumber3 (He was 3rd in ranking after a bet but lost it to more bets)", "ECRANumber4", "ECRANumber5", "ExoticGiggles"],
+        "past_usernames": ["ExoticGiggles (He wasn't actually in EC)", "ECRAGiggles", "ECRANumber5", "ECRANumber3 (He was 3rd in ranking after a bet but lost it to more bets)", "ECRANumber4", "ECRANumber"],
         "skin_mc": None,
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 5, "Fortnite": 5, "Roblox": 5, "Geometry Dash": 6}
@@ -78,7 +99,7 @@ members = [
         "rank": 7,
         "rank2025": 7,
         "rank_history": ["2025: #7 (joined Fall 2025)"],
-        "past_usernames": ["Quilver", "Quilverest", "SDQuil", "GhostQuil", "Quilvire", "Quilver", "Quilverest", "QuilRS (Reaper Squad)", "QuilverestRS", "EZQuil", "RCQuil (Reaper Clan)", "Quilver", "CRQuil (Creep Reap Alliance)", "CRQuiliest", "CRSilliest", "ECQuil", "ECQuilver", "CRQuilver", "Quiliest", "QuietestQuil", "BannedBruh (Quil lost a bet to ReapSplotion and got banned from CR)", "ECRAQuil"],
+        "past_usernames": ["Quilver", "Quilverest", "SDQuil", "GhostQuil", "Quilvire", "Quilver", "Quilverest", "QuilRS (Reaper Squad)", "QuilverestRS", "EZQuil", "RCQuil (Reaper Clan)", "Quilver", "C"],
         "skin_mc": None,
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 8, "Fortnite": 7, "Roblox": 7, "Geometry Dash": 8}
@@ -122,7 +143,7 @@ members = [
         "rank": 11,
         "rank2025": 11,
         "rank_history": ["2025: #11 (joined Fall 2025)"],
-        "past_usernames": ["R3zzignation has been in the most clans out of all ECRA members (24 clans)", "R3zzignation", "R3zz", "POR3zz", "POSTR3zz", "BuddyR3zz", "WOODR3zz", "KOR3zz", "LOSTR3zz", "EXR3zz", "QIR3zz", "CLLR3zz", "GBR3zz", "PCR3zz", "OKR3zz", "CHEZR3zz", "RRRR3zz", "WSR3zz", "BOR3zz", "KMR3zz", "CSR3zz", "PRR3zz", "FNR3zz", "FCR3zz", "DMGR3zz", "VCR3zz", "RCR3zz", "R3zzignation", "RCR3zz", "Resigned", "RCR3zz", "RCR3zzz"],
+        "past_usernames": ["R3zzignation has been in the most clans out of all ECRA members (24 clans)", "R3zzignation", "R3zz", "POR3zz", "POSTR3zz", "BuddyR3zz", "WOODR3zz", "KOR3zz", "LOSTR3zz", "E"],
         "skin_mc": None,
         "best_game": "Fortnite",
         "ranks_by_game": {"Minecraft": 12, "Fortnite": 9, "Roblox": 13, "Geometry Dash": 12}
@@ -188,73 +209,107 @@ acceptance_timeline = [
 
 def print_ranked_members():
     print("ECRA Members Ranked:")
-    for m in sorted(members, key=lambda x: x["rank"]):
-        print(f"{m['rank']}. {m['name']}")
+    try:
+        for m in sorted(members, key=lambda x: x.get("rank", float('inf'))):
+            print(f"{m.get('rank', '?')}. {m.get('name', 'Unknown')}")
+    except Exception as e:
+        print(f"Error printing ranked members: {e}")
 
 def print_acceptance_timeline():
     print("ECRA Acceptance Timeline:")
-    for entry in acceptance_timeline:
-        print(f"{entry['year']}: {entry['accepted']} member(s) accepted")
+    try:
+        for entry in acceptance_timeline:
+            year = entry.get('year', 'Unknown')
+            accepted = entry.get('accepted', 0)
+            print(f"{year}: {accepted} member(s) accepted")
+    except Exception as e:
+        print(f"Error printing acceptance timeline: {e}")
 
 def find_member(name):
     for m in members:
-        if m["name"].lower() == name.lower():
-            return m
+        try:
+            if m["name"].lower() == name.lower():
+                return m
+        except Exception:
+            continue
     return None
 
 def print_member_stats(member):
-    print(f"{member['name']}'s username is {member['username']}")
-    print(f"{member['name']} is rank #{member['rank']} out of all ECRA members")
-    if member['rank_history']:
-        if input(f"Do you want to see {member['name']}'s rank history?(yes/no): ").lower() == "yes":
-            for rh in member['rank_history']:
-                print(rh)
-    if member['past_usernames']:
-        if input(f"Do you want to see {member['name']}'s past usernames?(yes/no): ").lower() == "yes":
-            for pn in member['past_usernames']:
-                print(pn)
-    if member['skin_mc']:
-        if input(f"Do you want to see {member['name']}'s Skin MC account?(yes/no): ").lower() == "yes":
-            print(member['skin_mc'])
+    try:
+        print(f"{member.get('name', 'Unknown')}'s username is {member.get('username', 'N/A')}")
+        print(f"{member.get('name', 'Unknown')} is rank #{member.get('rank', '?')} out of all ECRA members")
+        if member.get('rank_history'):
+            if yes_no_prompt(f"Do you want to see {member.get('name', 'Unknown')}'s rank history?(yes/no): "):
+                for rh in member.get('rank_history', []):
+                    print(rh)
+        if member.get('past_usernames'):
+            if yes_no_prompt(f"Do you want to see {member.get('name', 'Unknown')}'s past usernames?(yes/no): "):
+                for pn in member.get('past_usernames', []):
+                    print(pn)
+        if member.get('skin_mc'):
+            if yes_no_prompt(f"Do you want to see {member.get('name', 'Unknown')}'s Skin MC account?(yes/no): "):
+                print(member.get('skin_mc'))
+    except Exception as e:
+        print(f"Error printing member stats: {e}")
 
 def print_best_games():
     print("Best Game for Each Member:")
-    for m in members:
-        print(f"{m['name']}: {m['best_game']}")
+    try:
+        for m in members:
+            print(f"{m.get('name', 'Unknown')}: {m.get('best_game', 'Unknown')}")
+    except Exception as e:
+        print(f"Error printing best games: {e}")
 
 def print_game_ranking(game):
     print(f"Ranking for {game}:")
-    # Show only those who have a rank for that game
-    game_ranks = [(m["name"], m["ranks_by_game"].get(game, 99)) for m in members]
-    for name, rank in sorted(game_ranks, key=lambda x: x[1]):
-        print(f"#{rank} {name}")
+    try:
+        # Show only those who have a rank for that game
+        game_ranks = []
+        for m in members:
+            name = m.get("name", "Unknown")
+            ranks_by_game = m.get("ranks_by_game", {})
+            rank = ranks_by_game.get(game, 99)
+            game_ranks.append((name, rank))
+        for name, rank in sorted(game_ranks, key=lambda x: x[1]):
+            print(f"#{rank} {name}")
+    except Exception as e:
+        print(f"Error printing game ranking for {game}: {e}")
 
-if input('Do you want a list of all ECRA members ranked?(yes/no): ').lower() == 'yes':
-    print_ranked_members()
+# Main interaction loop with error handling
+try:
+    if yes_no_prompt('Do you want a list of all ECRA members ranked?(yes/no): '):
+        print_ranked_members()
 
-if input('Do you want to see a timeline of ECRA acceptance?(yes/no): ').lower() == 'yes':
-    print_acceptance_timeline()
+    if yes_no_prompt('Do you want to see a timeline of ECRA acceptance?(yes/no): '):
+        print_acceptance_timeline()
 
-userPlayer = input('What player would you like to see the stats of?: ')
-member = find_member(userPlayer)
-if member:
-    print_member_stats(member)
-else:
-    print("Player not found.")
+    userPlayer = get_input('What player would you like to see the stats of?: ').strip()
+    if not userPlayer:
+        print("You must enter a player name.")
+    else:
+        member = find_member(userPlayer)
+        if member:
+            print_member_stats(member)
+        else:
+            print("Player not found.")
 
-if input("Do you want to see the game everyone is best at?(yes/no): ").lower() == "yes":
-    print_best_games()
-else:
-    sys.exit()
+    if yes_no_prompt("Do you want to see the game everyone is best at?(yes/no): "):
+        print_best_games()
+    else:
+        sys.exit()
 
-if input('Do you want to see everyone ranked in Minecraft?(yes/no): ').lower() == "yes":
-    print_game_ranking("Minecraft")
+    if yes_no_prompt('Do you want to see everyone ranked in Minecraft?(yes/no): '):
+        print_game_ranking("Minecraft")
 
-if input('Do you want to see everyone ranked in Fortnite?(yes/no): ').lower() == "yes":
-    print_game_ranking("Fortnite")
+    if yes_no_prompt('Do you want to see everyone ranked in Fortnite?(yes/no): '):
+        print_game_ranking("Fortnite")
 
-if input('Do you want to see everyone ranked in Roblox?(yes/no): ').lower() == "yes":
-    print_game_ranking("Roblox")
+    if yes_no_prompt('Do you want to see everyone ranked in Roblox?(yes/no): '):
+        print_game_ranking("Roblox")
 
-if input('Do you want to see everyone ranked in Geometry Dash?(yes/no): ').lower() == "yes":
-    print_game_ranking("Geometry Dash")
+    if yes_no_prompt('Do you want to see everyone ranked in Geometry Dash?(yes/no): '):
+        print_game_ranking("Geometry Dash")
+
+except Exception as e:
+    print(f"An unexpected error occurred: {e}")
+    sys.exit(1)
