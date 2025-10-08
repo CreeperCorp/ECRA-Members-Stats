@@ -77,7 +77,7 @@ members = [
         "past_usernames": ["ExoticGiggles (He wasn't actually in EC)", "ECRAGiggles", "ECRANumber5", "ECRANumber3 (He was 3rd in ranking after a bet but lost it to more bets)", "ECRANumber4", "ECRANumber"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 5, "Fortnite": 5, "Roblox": 5, "Geometry Dash": 6}
+        "ranks_by_game": {"Minecraft": 5, "Fortnite": 6, "Roblox": 5, "Geometry Dash": 6}
     },
     {
         "name": "Finxlly",
@@ -88,7 +88,7 @@ members = [
         "past_usernames": ["FinxllyForever", "FinxllyNever", "FinxllyAI", "FinxllyMC", "F3nxlly", "F3_Finxlly", "CSFinxlly", "FinxllyECRA", "F3nxllyECRA", "CreepSplotionYT"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 7, "Fortnite": 6, "Roblox": 6, "Geometry Dash": 7}
+        "ranks_by_game": {"Minecraft": 7, "Fortnite": 7, "Roblox": 6, "Geometry Dash": 7}
     },
     {
         "name": "Quilver",
@@ -99,106 +99,117 @@ members = [
         "past_usernames": ["Quilver", "Quilverest", "SDQuil", "GhostQuil", "Quilvire", "Quilver", "Quilverest", "QuilRS (Reaper Squad)", "QuilverestRS", "EZQuil", "RCQuil (Reaper Clan)", "Quilver", "C"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 8, "Fortnite": 7, "Roblox": 7, "Geometry Dash": 8}
+        "ranks_by_game": {"Minecraft": 8, "Fortnite": 8, "Roblox": 7, "Geometry Dash": 8}
+    },
+    {
+    "name": "PolyPePtide",
+        "username": "ECRAP0lyPePtide",
+        "rank": 8,
+        "rank2025": 8,
+        "rank_history": ["2025: #8 (joined Fall 2025)"],
+        "past_usernames": ["Poly3ptide", "Polyester", "RCPoly3ptide", "RCPolyz", "RCP0lyPeptide", "RCP0lyP3ptide"],
+        "skin_mc": None,
+        "best_game": "Fortnite",
+        "ranks_by_game": {"Minecraft": 10, "Fortnite": 5, "Roblox": 10, "Geometry Dash": 9}
     },
     {
         "name": "Temp0rary",
         "username": "ECRATemp0rary",
-        "rank": 8,
-        "rank2025": 8,
-        "rank_history": ["2025: #8 (joined Fall 2025)"],
+        "rank": 9,
+        "rank2025": 9,
+        "rank_history": ["2025: #9 (joined Fall 2025)"],
         "past_usernames": ["Temperaturist", "Telephrist", "GHOSTTemp", "ECTemp0rary"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 9, "Fortnite": 10, "Roblox": 8, "Geometry Dash": 11}
+        "ranks_by_game": {"Minecraft": 9, "Fortnite": 11, "Roblox": 8, "Geometry Dash": 12}
     },
     {
         "name": "aXc3L",
         "username": "ECRAaXc3L",
-        "rank": 9,
-        "rank2025": 9,
-        "rank_history": ["2025: #9 (joined Fall 2025)"],
+        "rank": 10,
+        "rank2025": 10,
+        "rank_history": ["2025: #10 (joined Fall 2025)"],
         "past_usernames": ["aXc3L", "CSaXc3L", "ReaperaXc3L", "ExoticaXc3L", "aXc3L", "0OPaXc3L", "CSaXc3L", "aXc3L", "ExoticaXc3L"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 10, "Fortnite": 12, "Roblox": 13, "Geometry Dash": 12}
+        "ranks_by_game": {"Minecraft": 11, "Fortnite": 13, "Roblox": 14, "Geometry Dash": 13}
     },
     {
         "name": "CreepYT",
         "username": "CreepYT8451",
-        "rank": 10,
-        "rank2025": 10,
-        "rank_history": ["2025: #10 (joined Summer 2025)"],
+        "rank": 11,
+        "rank2025": 11,
+        "rank_history": ["2025: #11 (joined Summer 2025)"],
         "past_usernames": [],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 6, "Fortnite": 11, "Roblox": 9, "Geometry Dash": 9}
+        "ranks_by_game": {"Minecraft": 6, "Fortnite": 12, "Roblox": 9, "Geometry Dash": 10}
     },
     {
         "name": "XRayz",
         "username": "ECRAXRayz",
-        "rank": 11,
-        "rank2025": 11,
-        "rank_history": ["2025: #11 (joined Fall 2025)"],
+        "rank": 12,
+        "rank2025": 12,
+        "rank_history": ["2025: #12 (joined Fall 2025)"],
         "past_usernames": ["IXRayForFun", "XRayz", "Xrayz", "XRayzAM", "ISeeThroughWalls", "XRaaaaaaayz", "XXRayz", "RSXRayz", "RCXRayz", "CRXRayz", "CRXRaaaaaaayz"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 11, "Fortnite": 8, "Roblox": 11, "Geometry Dash": 10}
+        "ranks_by_game": {"Minecraft": 12, "Fortnite": 9, "Roblox": 12, "Geometry Dash": 11}
     },
     {
         "name": "R3zzignation",
         "username": "ECRAXR3zz",
-        "rank": 12,
-        "rank2025": 12,
-        "rank_history": ["2025: #12 (joined Fall 2025)"],
+        "rank": 13,
+        "rank2025": 13,
+        "rank_history": ["2025: #13 (joined Fall 2025)"],
         "past_usernames": ["R3zzignation has been in the most clans out of all ECRA members (24 clans)", "R3zzignation", "R3zz", "POR3zz", "POSTR3zz", "BuddyR3zz", "WOODR3zz", "KOR3zz", "LOSTR3zz", "E"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 13, "Fortnite": 9, "Roblox": 14, "Geometry Dash": 13}
+        "ranks_by_game": {"Minecraft": 14, "Fortnite": 10, "Roblox": 15, "Geometry Dash": 14}
     },
     {
         "name": "Batchi",
         "username": "ECRABatchi",
-        "rank": 13,
-        "rank2025": 13,
-        "rank_history": ["2025: #13 (joined Fall 2025)"],
+        "rank": 14,
+        "rank2025": 14,
+        "rank_history": ["2025: #14 (joined Fall 2025)"],
         "past_usernames": ["Batch3sBatchi", "BatchesBatchi", "BatchiBatchi", "CabresBatchi", "BBBatchi", "YWNBatchi", "JSBatchi", "HHBATCHI", "CSBatchi", "ReaperBatchi"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 14, "Fortnite": 13, "Roblox": 15, "Geometry Dash": 14}
+        "ranks_by_game": {"Minecraft": 15, "Fortnite": 14, "Roblox": 16, "Geometry Dash": 15}
     },
     {
         "name": "Dash",
         "username": "Dashturle09",
-        "rank": 14,
-        "rank2025": 14,
-        "rank_history": ["2025: #14 (joined Winter 2025)"],
-        "past_usernames": [],
-        "skin_mc": None,
-        "best_game": "Roblox",
-        "ranks_by_game": {"Minecraft": 16, "Fortnite": 14, "Roblox": 10, "Geometry Dash": 16}
-    },
-    {
-        "name": "XxFun",
-        "username": "XxFunWasTaken",
         "rank": 15,
         "rank2025": 15,
         "rank_history": ["2025: #15 (joined Winter 2025)"],
         "past_usernames": [],
         "skin_mc": None,
+        "best_game": "Roblox",
+        "ranks_by_game": {"Minecraft": 17, "Fortnite": 15, "Roblox": 11, "Geometry Dash": 17}
+    },
+    {
+        "name": "XxFun",
+        "username": "XxFunWasTaken",
+        "rank": 16,
+        "rank2025": 16,
+        "rank_history": ["2025: #16 (joined Winter 2025)"],
+        "past_usernames": [],
+        "skin_mc": None,
         "best_game": "Geometry Dash",
-        "ranks_by_game": {"Minecraft": 15, "Fortnite": 15, "Roblox": 12, "Geometry Dash": 5}
+        "ranks_by_game": {"Minecraft": 16, "Fortnite": 16, "Roblox": 13, "Geometry Dash": 5}
     },
     {
         "name": "Joc3e",
         "username": "ECRAJoc3e",
-        "rank": 16,
-        "rank2025": 16,
-        "rank_history": ["2025: #16 (joined Fall 2025)"],
+        "rank": 17,
+        "rank2025": 17,
+        "rank_history": ["2025: #17 (joined Fall 2025)"],
         "past_usernames": ["Joc3e", "FFJoc3e", "PRJoc3e", "QRJoc3e", "RSJoc3e", "RCJoc3e"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 12, "Fortnite": 16, "Roblox": 16, "Geometry Dash": 15}
+        "ranks_by_game": {"Minecraft": 13, "Fortnite": 17, "Roblox": 17, "Geometry Dash": 16}
     }
 ]
 
@@ -212,7 +223,7 @@ acceptance_timeline = [
     {"year": 2022, "accepted": 0},
     {"year": 2023, "accepted": 0},
     {"year": 2024, "accepted": 0},
-    {"year": 2025, "accepted": 12},
+    {"year": 2025, "accepted": 13},
 ]
 
 def print_ranked_members():
