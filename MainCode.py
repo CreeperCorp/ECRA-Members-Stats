@@ -209,7 +209,7 @@ members = [
         "past_usernames": ["Joc3e", "FFJoc3e", "PRJoc3e", "QRJoc3e", "RSJoc3e", "RCJoc3e"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 14, "Fortnite": 16, "Roblox": 17, "Geometry Dash": 17}
+        "ranks_by_game": {"Minecraft": 14, "Fortnite": 16, "Roblox": 18, "Geometry Dash": 17}
     },
     {
         "name": "Anchor",
@@ -220,7 +220,7 @@ members = [
         "past_usernames": ["Anchorrrrrr", "Anchorzzz", "ECAnchorrr"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 11, "Fortnite": 18, "Roblox": 18, "Geometry Dash": 14}
+        "ranks_by_game": {"Minecraft": 11, "Fortnite": 18, "Roblox": 17, "Geometry Dash": 14}
     }
 ]
 
