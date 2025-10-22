@@ -88,7 +88,7 @@ members = [
         "past_usernames": ["FinxllyForever", "FinxllyNever", "FinxllyAI", "FinxllyMC", "F3nxlly", "F3_Finxlly", "CSFinxlly", "FinxllyECRA", "F3nxllyECRA", "CreepSplotionYT"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 7, "Fortnite": 7, "Roblox": 6, "Geometry Dash": 7, "BTDB2": 8}
+        "ranks_by_game": {"Minecraft": 7, "Fortnite": 8, "Roblox": 6, "Geometry Dash": 7, "BTDB2": 8}
     },
     {
         "name": "Quilver",
@@ -99,7 +99,7 @@ members = [
         "past_usernames": ["Quilver", "Quilverest", "SDQuil", "GhostQuil", "Quilvire", "Quilver", "Quilverest", "QuilRS (Reaper Squad)", "QuilverestRS", "EZQuil", "RCQuil (Reaper Clan)", "Quilver", "C"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 8, "Fortnite": 8, "Roblox": 7, "Geometry Dash": 8, "BTDB2": 5}
+        "ranks_by_game": {"Minecraft": 8, "Fortnite": 9, "Roblox": 7, "Geometry Dash": 8, "BTDB2": 5}
     },
     {
     "name": "PolyPePtide",
@@ -165,7 +165,7 @@ members = [
         "past_usernames": ["IXRayForFun", "XRayz", "Xrayz", "XRayzAM", "ISeeThroughWalls", "XRaaaaaaayz", "XXRayz", "RSXRayz", "RCXRayz", "CRXRayz", "CRXRaaaaaaayz"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 14, "Fortnite": 9, "Roblox": 13, "Geometry Dash": 11, "BTDB2": 13}
+        "ranks_by_game": {"Minecraft": 14, "Fortnite": 7, "Roblox": 13, "Geometry Dash": 11, "BTDB2": 13}
     },
     {
         "name": "R3zzignation",
