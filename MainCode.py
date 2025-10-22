@@ -74,7 +74,7 @@ members = [
         "rank": 5,
         "rank2025": 5,
         "rank_history": ["2025: #5 (joined Spring 2025)"],
-        "past_usernames": ["ExoticGiggles (He wasn't actually in EC)", "ECRAGiggles", "ECRANumber5", "ECRANumber3 (He was 3rd in ranking after a bet but lost it to more bets)", "ECRANumber4", "ECRANumber"],
+        "past_usernames": ["ExoticGiggles (He wasn't actually in EC)", "ECRAGiggles", "ECRANumber5", "ECRANumber3 (He was 3rd in ranking after a bet but lost it to more bets)", "ECRANumber4", "ECRANumber5", "ExoticGiggles"],
         "skin_mc": None,
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 5, "Fortnite": 6, "Roblox": 5, "Geometry Dash": 6, "BTDB2": 7}
