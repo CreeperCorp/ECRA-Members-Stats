@@ -96,7 +96,7 @@ members = [
         "rank": 7,
         "rank2025": 7,
         "rank_history": ["2025: #7 (joined Fall 2025)"],
-        "past_usernames": ["Quilver", "Quilverest", "SDQuil", "GhostQuil", "Quilvire", "Quilver", "Quilverest", "QuilRS (Reaper Squad)", "QuilverestRS", "EZQuil", "RCQuil (Reaper Clan)", "Quilver", "C"],
+        "past_usernames": ["Quilver", "Quilverest", "SDQuil", "GhostQuil", "Quilvire", "Quilver", "Quilverest", "QuilRS (Reaper Squad)", "QuilverestRS", "EZQuil", "RCQuil (Reaper Clan)", "Quilver", "CRQuil (Creep Reap Alliance)", "Quilver", "CRQuilliest", "CRSilliest", "ECQuil", "ECQuilver", "CRQuilver", "Quiliest", "QuietestQuil", "BannedBruh (Quil lost a bet to ReapSplotion and got banned from CR", "ECRAQuil"],
         "skin_mc": None,
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 8, "Fortnite": 9, "Roblox": 7, "Geometry Dash": 8, "BTDB2": 5}
