@@ -254,6 +254,8 @@ members = [
         "skin_mc": None,
         "best_game": "Roblox",
         "ranks_by_game": {"Minecraft": 21, "Fortnite": 21, "Roblox": 18, "Geometry Dash": 21, "BTDB2": 21}
+        "WonderousSMP": "No",
+        "Immortal Life": "No"
     }
 ]
 
@@ -338,6 +340,16 @@ def print_game_ranking(game):
     except Exception as e:
         print(f"Error printing game ranking for {game}: {e}")
 
+def print_SMP_Count():
+    if yes_no_prompt('Do you want to see everyone on Wonderous SMP?(yes/no): '):
+        for member in members:
+            if member.get('WonderousSMP') == 'Yes':
+                print(f"{member.get('name')}")
+    if yes_no_prompt('Do you want to see everyone on Immortal Life?(yes/no): '):
+        for member in members:
+            if member.get('Immortal Life') == 'Yes':
+                print(f"{member.get('name')}")
+
 # Main interaction loop with error handling
 try:
     if yes_no_prompt('Do you want a list of all ECRA members ranked?(yes/no): '):
@@ -375,6 +387,10 @@ try:
 
     if yes_no_prompt('Do you want to see everyone ranked in Bloons Tower Defense Battles 2?(yes/no): '):
         print_game_ranking("BTDB2")
+
+    if yes_no_prompt("Do you want to see who's on what SMP?(yes/no): "):
+        print_SMP_Count()
+
 
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
