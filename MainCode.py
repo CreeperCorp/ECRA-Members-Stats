@@ -198,7 +198,7 @@ members = [
         "past_usernames": ["Batch3sBatchi", "BatchesBatchi", "BatchiBatchi", "CabresBatchi", "BBBatchi", "YWNBatchi", "JSBatchi", "HHBATCHI", "CSBatchi", "ReaperBatchi"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 18, "Fortnite": 16, "Roblox": 18, "Geometry Dash": 18, "BTDB2": 16}
+        "ranks_by_game": {"Minecraft": 18, "Fortnite": 16, "Roblox": 19, "Geometry Dash": 18, "BTDB2": 16}
     },
     {
         "name": "Dash",
@@ -231,7 +231,7 @@ members = [
         "past_usernames": ["Anchorrrrrr", "Anchorzzz", "ECAnchorrr"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 13, "Fortnite": 20, "Roblox": 19, "Geometry Dash": 16, "BTDB2": 17}
+        "ranks_by_game": {"Minecraft": 13, "Fortnite": 20, "Roblox": 20, "Geometry Dash": 16, "BTDB2": 17}
     },
     {
         "name": "Joc3e",
@@ -242,7 +242,18 @@ members = [
         "past_usernames": ["Joc3e", "FFJoc3e", "PRJoc3e", "QRJoc3e", "RSJoc3e", "RCJoc3e"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 16, "Fortnite": 18, "Roblox": 20, "Geometry Dash": 19, "BTDB2": 18}
+        "ranks_by_game": {"Minecraft": 16, "Fortnite": 18, "Roblox": 21, "Geometry Dash": 19, "BTDB2": 18}
+    },
+    {
+        "name": "VeeVanessa",
+        "username": "ECRAVee",
+        "rank": 21,
+        "rank2025": 21,
+        "rank_history": ["2025: 21 (joined Fall 2025)"],
+        "past_usernames": [],
+        "skin_mc": None,
+        "best_game": "Roblox",
+        "ranks_by_game": {"Minecraft": 21, "Fortnite": 21, "Roblox": 18, "Geometry Dash": 21, "BTDB2": 21}
     }
 ]
 
@@ -256,7 +267,7 @@ acceptance_timeline = [
     {"year": 2022, "accepted": 0},
     {"year": 2023, "accepted": 0},
     {"year": 2024, "accepted": 0},
-    {"year": 2025, "accepted": 16},
+    {"year": 2025, "accepted": 17},
 ]
 
 def print_ranked_members():
