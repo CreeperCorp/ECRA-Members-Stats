@@ -48,11 +48,11 @@ members = [
     },
     {
         "name": "ReapSplotion",
-        "username": "ECRAReap",
+        "username": "ECRAReaperBot",
         "rank": 3,
         "rank2025": 3,
         "rank_history": ["2018: #2", "2023: #3", "2024: #4", "2025: #3"],
-        "past_usernames": [],
+        "past_usernames": ["ECRAReap"],
         "skin_mc": None,
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 3, "Fortnite": 4, "Roblox": 3, "Geometry Dash": 3, "BTDB2": 3}
