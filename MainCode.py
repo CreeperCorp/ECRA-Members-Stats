@@ -228,7 +228,7 @@ members = [
         "past_usernames": ["Batch3sBatchi", "BatchesBatchi", "BatchiBatchi", "CabresBatchi", "BBBatchi", "YWNBatchi", "JSBatchi", "HHBATCHI", "CSBatchi", "ReaperBatchi"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 18, "Fortnite": 16, "Roblox": 19, "Geometry Dash": 18, "BTDB2": 16},
+        "ranks_by_game": {"Minecraft": 19, "Fortnite": 16, "Roblox": 19, "Geometry Dash": 18, "BTDB2": 16},
         "WonderousSMP": "No",
         "Immortal Life": "Yes"
     },
@@ -241,7 +241,7 @@ members = [
         "past_usernames": [],
         "skin_mc": None,
         "best_game": "Roblox",
-        "ranks_by_game": {"Minecraft": 20, "Fortnite": 17, "Roblox": 12, "Geometry Dash": 20, "BTDB2": 20},
+        "ranks_by_game": {"Minecraft": 21, "Fortnite": 17, "Roblox": 12, "Geometry Dash": 20, "BTDB2": 20},
         "WonderousSMP": "No",
         "Immortal Life": "Yes"
     },
@@ -254,7 +254,7 @@ members = [
         "past_usernames": [],
         "skin_mc": None,
         "best_game": "Geometry Dash",
-        "ranks_by_game": {"Minecraft": 19, "Fortnite": 19, "Roblox": 14, "Geometry Dash": 5, "BTDB2": 19},
+        "ranks_by_game": {"Minecraft": 20, "Fortnite": 19, "Roblox": 14, "Geometry Dash": 5, "BTDB2": 19},
         "WonderousSMP": "No",
         "Immortal Life": "Yes"
     },
@@ -267,7 +267,7 @@ members = [
         "past_usernames": ["Anchorrrrrr", "Anchorzzz", "ECAnchorrr"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 13, "Fortnite": 20, "Roblox": 20, "Geometry Dash": 16, "BTDB2": 17},
+        "ranks_by_game": {"Minecraft": 13, "Fortnite": 21, "Roblox": 21, "Geometry Dash": 16, "BTDB2": 17},
         "WonderousSMP": "Yes",
         "Immortal Life": "No"
     },
@@ -280,7 +280,7 @@ members = [
         "past_usernames": ["Joc3e", "FFJoc3e", "PRJoc3e", "QRJoc3e", "RSJoc3e", "RCJoc3e"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 16, "Fortnite": 18, "Roblox": 21, "Geometry Dash": 19, "BTDB2": 18},
+        "ranks_by_game": {"Minecraft": 16, "Fortnite": 18, "Roblox": 22, "Geometry Dash": 19, "BTDB2": 18},
         "WonderousSMP": "Yes",
         "Immortal Life": "Yes"
     },
@@ -290,10 +290,23 @@ members = [
         "rank": 21,
         "rank2025": 21,
         "rank_history": ["2025: 21 (joined Fall 2025)"],
-        "past_usernames": [],
+        "past_usernames": ["VanessaBB"],
         "skin_mc": None,
         "best_game": "Roblox",
-        "ranks_by_game": {"Minecraft": 21, "Fortnite": 21, "Roblox": 18, "Geometry Dash": 21, "BTDB2": 21},
+        "ranks_by_game": {"Minecraft": 22, "Fortnite": 22, "Roblox": 18, "Geometry Dash": 21, "BTDB2": 21},
+        "WonderousSMP": "No",
+        "Immortal Life": "No"
+    },
+    {
+        "name": "BeatrixBubblyBianca",
+        "username": "ECRABee",
+        "rank": 22,
+        "rank2025": 22,
+        "rank_history": ["2025: 22 (joined Fall 2025)"],
+        "past_usernames": ["BeatrixBB"],
+        "skin_mc": None,
+        "best_game": "Minecraft",
+        "ranks_by_game": {"Minecraft": 18, "Fortnite": 20, "Roblox": 20, "Geometry Dash": 22, "BTDB2": 22},
         "WonderousSMP": "No",
         "Immortal Life": "No"
     }
@@ -309,7 +322,7 @@ acceptance_timeline = [
     {"year": 2022, "accepted": 0},
     {"year": 2023, "accepted": 0},
     {"year": 2024, "accepted": 0},
-    {"year": 2025, "accepted": 17},
+    {"year": 2025, "accepted": 18},
 ]
 
 def print_ranked_members():
