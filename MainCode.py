@@ -33,7 +33,9 @@ members = [
         "past_usernames": ["ECRACreeperBot", "ECRAShadowCreep", "ECRACreep", "CreepSplotionYT", "ECRAYungyBot"],
         "skin_mc": "https://namemc.com/profile/ECRAYungyBot.1",
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 1, "Fortnite": 1, "Roblox": 1, "Geometry Dash": 1, "BTDB2": 1}
+        "ranks_by_game": {"Minecraft": 1, "Fortnite": 1, "Roblox": 1, "Geometry Dash": 1, "BTDB2": 1},
+        "WonderousSMP": "Yes",
+        "Immortal Life": "Yes"
     },
     {
         "name": "Ennard",
@@ -44,7 +46,9 @@ members = [
         "past_usernames": ["EqqqEnnard", "ExoticEnnardGG", "EXENNJJERD", "ECRAEnnard", "ECRAMrFeast", "ECRAEnnard", "ECRAExoticEnnard", "OffHandIsA", "IWalkWithQ"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 2, "Fortnite": 2, "Roblox": 2, "Geometry Dash": 2, "BTDB2": 2}
+        "ranks_by_game": {"Minecraft": 2, "Fortnite": 2, "Roblox": 2, "Geometry Dash": 2, "BTDB2": 2},
+        "WonderousSMP": "Yes",
+        "Immortal Life": "Yes"
     },
     {
         "name": "ReapSplotion",
@@ -55,7 +59,9 @@ members = [
         "past_usernames": ["ECRAReap"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 3, "Fortnite": 4, "Roblox": 3, "Geometry Dash": 3, "BTDB2": 3}
+        "ranks_by_game": {"Minecraft": 3, "Fortnite": 4, "Roblox": 3, "Geometry Dash": 3, "BTDB2": 3},
+        "WonderousSMP": "Yes",
+        "Immortal Life": "Yes"
     },
     {
         "name": "Division",
@@ -66,7 +72,9 @@ members = [
         "past_usernames": ["BetterCreep", "DivideBy78", "Division404", "ExoticDivision", "CSDivision", "ReaperD", "ECRANo", "ECRAyes", "ECRABestMember", "CreepSplotionYT", "ECRADivision", "12LengthTab", "ECRAFiftyFour", "HistoricalName", "ImportantFile", "GoodUsername", "ECRAFinally", "ECRADivision", "EnnardViolateCode"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 4, "Fortnite": 3, "Roblox": 4, "Geometry Dash": 4, "BTDB2": 4}
+        "ranks_by_game": {"Minecraft": 4, "Fortnite": 3, "Roblox": 4, "Geometry Dash": 4, "BTDB2": 4},
+        "WonderousSMP": "Yes",
+        "Immortal Life": "Yes"
     },
     {
         "name": "Giggles",
@@ -77,7 +85,9 @@ members = [
         "past_usernames": ["ExoticGiggles (He wasn't actually in EC)", "ECRAGiggles", "ECRANumber5", "ECRANumber3 (He was 3rd in ranking after a bet but lost it to more bets)", "ECRANumber4", "ECRANumber5", "ExoticGiggles"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 5, "Fortnite": 6, "Roblox": 5, "Geometry Dash": 6, "BTDB2": 7}
+        "ranks_by_game": {"Minecraft": 5, "Fortnite": 6, "Roblox": 5, "Geometry Dash": 6, "BTDB2": 7},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "Finxlly",
@@ -88,7 +98,9 @@ members = [
         "past_usernames": ["FinxllyForever", "FinxllyNever", "FinxllyAI", "FinxllyMC", "F3nxlly", "F3_Finxlly", "CSFinxlly", "FinxllyECRA", "F3nxllyECRA", "CreepSplotionYT"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 7, "Fortnite": 8, "Roblox": 6, "Geometry Dash": 7, "BTDB2": 8}
+        "ranks_by_game": {"Minecraft": 7, "Fortnite": 8, "Roblox": 6, "Geometry Dash": 7, "BTDB2": 8},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "Quilver",
@@ -99,7 +111,9 @@ members = [
         "past_usernames": ["Quilver", "Quilverest", "SDQuil", "GhostQuil", "Quilvire", "Quilver", "Quilverest", "QuilRS (Reaper Squad)", "QuilverestRS", "EZQuil", "RCQuil (Reaper Clan)", "Quilver", "CRQuil (Creep Reap Alliance)", "Quilver", "CRQuilliest", "CRSilliest", "ECQuil", "ECQuilver", "CRQuilver", "Quiliest", "QuietestQuil", "BannedBruh (Quil lost a bet to ReapSplotion and got banned from CR", "ECRAQuil"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 8, "Fortnite": 9, "Roblox": 7, "Geometry Dash": 8, "BTDB2": 5}
+        "ranks_by_game": {"Minecraft": 8, "Fortnite": 9, "Roblox": 7, "Geometry Dash": 8, "BTDB2": 5},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
     "name": "PolyPePtide",
@@ -110,7 +124,9 @@ members = [
         "past_usernames": ["Poly3ptide", "Polyester", "RCPoly3ptide", "RCPolyz", "RCP0lyPeptide", "RCP0lyP3ptide"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 12, "Fortnite": 5, "Roblox": 11, "Geometry Dash": 9, "BTDB2": 9}
+        "ranks_by_game": {"Minecraft": 12, "Fortnite": 5, "Roblox": 11, "Geometry Dash": 9, "BTDB2": 9},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "Temp0rary",
@@ -121,7 +137,9 @@ members = [
         "past_usernames": ["Temperaturist", "Telephrist", "GHOSTTemp", "ECTemp0rary"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 9, "Fortnite": 12, "Roblox": 8, "Geometry Dash": 12, "BTDB2": 11}
+        "ranks_by_game": {"Minecraft": 9, "Fortnite": 12, "Roblox": 8, "Geometry Dash": 12, "BTDB2": 11},
+        "WonderousSMP": "Yes",
+        "Immortal Life": "No"
     },
     {
         "name": "UnScr1pted",
@@ -132,7 +150,9 @@ members = [
         "past_usernames": ["UnScripted", "Unscr3pted", "UnScr1pted", "UNSCR1PTED"],
         "skin_mc": None,
         "best_game": "BTDB2",
-        "ranks_by_game": {"Minecraft": 10, "Fortnite": 13, "Roblox": 9, "Geometry Dash": 13, "BTDB2": 6}
+        "ranks_by_game": {"Minecraft": 10, "Fortnite": 13, "Roblox": 9, "Geometry Dash": 13, "BTDB2": 6},
+        "WonderousSMP": "Yes",
+        "Immortal Life": "Yes"
     },
     {
         "name": "aXc3L",
@@ -143,7 +163,9 @@ members = [
         "past_usernames": ["aXc3L", "CSaXc3L", "ReaperaXc3L", "ExoticaXc3L", "aXc3L", "0OPaXc3L", "CSaXc3L", "aXc3L", "ExoticaXc3L"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 13, "Fortnite": 15, "Roblox": 15, "Geometry Dash": 14, "BTDB2": 10}
+        "ranks_by_game": {"Minecraft": 13, "Fortnite": 15, "Roblox": 15, "Geometry Dash": 14, "BTDB2": 10},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "CreepYT",
@@ -154,7 +176,9 @@ members = [
         "past_usernames": [],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 6, "Fortnite": 14, "Roblox": 10, "Geometry Dash": 10, "BTDB2": 12}
+        "ranks_by_game": {"Minecraft": 6, "Fortnite": 14, "Roblox": 10, "Geometry Dash": 10, "BTDB2": 12},
+        "WonderousSMP": "Yes",
+        "Immortal Life": "Yes"
     },
     {
         "name": "XRayz",
@@ -165,7 +189,9 @@ members = [
         "past_usernames": ["IXRayForFun", "XRayz", "Xrayz", "XRayzAM", "ISeeThroughWalls", "XRaaaaaaayz", "XXRayz", "RSXRayz", "RCXRayz", "CRXRayz", "CRXRaaaaaaayz"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 14, "Fortnite": 7, "Roblox": 13, "Geometry Dash": 11, "BTDB2": 13}
+        "ranks_by_game": {"Minecraft": 14, "Fortnite": 7, "Roblox": 13, "Geometry Dash": 11, "BTDB2": 13},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "R3zzignation",
@@ -176,7 +202,9 @@ members = [
         "past_usernames": ["R3zzignation has been in the most clans out of all ECRA members (24 clans)", "R3zzignation", "R3zz", "POR3zz", "POSTR3zz", "BuddyR3zz", "WOODR3zz", "KOR3zz", "LOSTR3zz", "EXR3zz", "QIR3zz", "CLLR3zz", "GBR3zz", "PCR3zz", "OKR3zz", "CHEZR3zz", "RRRR3zz", "WSR3zz", "BOR3zz", "KMR3zz", "CSR3zz", "PRR3zz", "FNR3zz", "FCR3zz", "DMGR3zz", "VCR3zz", "RCR3zz", "R3zzignation", "RCR3zz", "Resigned", "RCR3zz", "RCR3zzz"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 17, "Fortnite": 10, "Roblox": 16, "Geometry Dash": 17, "BTDB2": 14}
+        "ranks_by_game": {"Minecraft": 17, "Fortnite": 10, "Roblox": 16, "Geometry Dash": 17, "BTDB2": 14},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "R3zz0lution",
@@ -187,7 +215,9 @@ members = [
         "past_usernames": ["R3zz0lution has been in every clan R3zzignation has been in except Creeper Squad", "R3zzolution", "R3zz0", "POR3zz0", "POSTR3zz0", "BuddyR3zz0", "WOODR3zz0", "KOR3zz0", "LOSTR3zz0", "EXR3zz0", "QIR3zz0", "CLLR3zz0", "GBR3zz0", "PCR3zz0", "OKR3zz0", "CHEZR3zz0", "RRRR3zz0", "WSR3zz0", "BOR3zz0", "KMR3zz0", "PRR3zz0", "FNR3zz0", "FCR3zz0", "DMGR3zz0", "VCR3zz0", "RCR3zz0"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 11, "Fortnite": 11, "Roblox": 17, "Geometry Dash": 15, "BTDB2": 15}
+        "ranks_by_game": {"Minecraft": 11, "Fortnite": 11, "Roblox": 17, "Geometry Dash": 15, "BTDB2": 15},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "Batchi",
@@ -198,7 +228,9 @@ members = [
         "past_usernames": ["Batch3sBatchi", "BatchesBatchi", "BatchiBatchi", "CabresBatchi", "BBBatchi", "YWNBatchi", "JSBatchi", "HHBATCHI", "CSBatchi", "ReaperBatchi"],
         "skin_mc": None,
         "best_game": "Fortnite",
-        "ranks_by_game": {"Minecraft": 18, "Fortnite": 16, "Roblox": 19, "Geometry Dash": 18, "BTDB2": 16}
+        "ranks_by_game": {"Minecraft": 18, "Fortnite": 16, "Roblox": 19, "Geometry Dash": 18, "BTDB2": 16},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "Dash",
@@ -209,7 +241,9 @@ members = [
         "past_usernames": [],
         "skin_mc": None,
         "best_game": "Roblox",
-        "ranks_by_game": {"Minecraft": 20, "Fortnite": 17, "Roblox": 12, "Geometry Dash": 20, "BTDB2": 20}
+        "ranks_by_game": {"Minecraft": 20, "Fortnite": 17, "Roblox": 12, "Geometry Dash": 20, "BTDB2": 20},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "XxFun",
@@ -220,7 +254,9 @@ members = [
         "past_usernames": [],
         "skin_mc": None,
         "best_game": "Geometry Dash",
-        "ranks_by_game": {"Minecraft": 19, "Fortnite": 19, "Roblox": 14, "Geometry Dash": 5, "BTDB2": 19}
+        "ranks_by_game": {"Minecraft": 19, "Fortnite": 19, "Roblox": 14, "Geometry Dash": 5, "BTDB2": 19},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes"
     },
     {
         "name": "Anchor",
@@ -231,7 +267,9 @@ members = [
         "past_usernames": ["Anchorrrrrr", "Anchorzzz", "ECAnchorrr"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 13, "Fortnite": 20, "Roblox": 20, "Geometry Dash": 16, "BTDB2": 17}
+        "ranks_by_game": {"Minecraft": 13, "Fortnite": 20, "Roblox": 20, "Geometry Dash": 16, "BTDB2": 17},
+        "WonderousSMP": "Yes",
+        "Immortal Life": "No"
     },
     {
         "name": "Joc3e",
@@ -242,7 +280,9 @@ members = [
         "past_usernames": ["Joc3e", "FFJoc3e", "PRJoc3e", "QRJoc3e", "RSJoc3e", "RCJoc3e"],
         "skin_mc": None,
         "best_game": "Minecraft",
-        "ranks_by_game": {"Minecraft": 16, "Fortnite": 18, "Roblox": 21, "Geometry Dash": 19, "BTDB2": 18}
+        "ranks_by_game": {"Minecraft": 16, "Fortnite": 18, "Roblox": 21, "Geometry Dash": 19, "BTDB2": 18},
+        "WonderousSMP": "Yes",
+        "Immortal Life": "Yes"
     },
     {
         "name": "VeeVanessa",
@@ -253,7 +293,7 @@ members = [
         "past_usernames": [],
         "skin_mc": None,
         "best_game": "Roblox",
-        "ranks_by_game": {"Minecraft": 21, "Fortnite": 21, "Roblox": 18, "Geometry Dash": 21, "BTDB2": 21}
+        "ranks_by_game": {"Minecraft": 21, "Fortnite": 21, "Roblox": 18, "Geometry Dash": 21, "BTDB2": 21},
         "WonderousSMP": "No",
         "Immortal Life": "No"
     }
@@ -303,6 +343,9 @@ def print_member_stats(member):
     try:
         print(f"{member.get('name', 'Unknown')}'s username is {member.get('username', 'N/A')}")
         print(f"{member.get('name', 'Unknown')} is rank #{member.get('rank', '?')} out of all ECRA members")
+        # Print SMP statuses
+        print(f"WonderousSMP status: {member.get('WonderousSMP', 'Unknown')}")
+        print(f"Immortal Life status: {member.get('Immortal Life', 'Unknown')}")
         if member.get('rank_history'):
             if yes_no_prompt(f"Do you want to see {member.get('name', 'Unknown')}'s rank history?(yes/no): "):
                 for rh in member.get('rank_history', []):
@@ -341,16 +384,12 @@ def print_game_ranking(game):
         print(f"Error printing game ranking for {game}: {e}")
 
 def print_SMP_Count():
-    if yes_no_prompt('Do you want to see everyone on Wonderous SMP?(yes/no): '):
-        for member in members:
-            if member.get('WonderousSMP') == 'Yes':
-                print(f"{member.get('name')}")
-    if yes_no_prompt('Do you want to see everyone on Immortal Life?(yes/no): '):
-        for member in members:
-            if member.get('Immortal Life') == 'Yes':
-                print(f"{member.get('name')}")
+    for member in members:
+        name = member.get('name', 'Unknown')
+        wonderous = member.get('WonderousSMP', 'No')
+        immortal = member.get('Immortal Life', 'No')
+        print(f"{name}: WonderousSMP = {wonderous}, Immortal Life = {immortal}")
 
-# Main interaction loop with error handling
 try:
     if yes_no_prompt('Do you want a list of all ECRA members ranked?(yes/no): '):
         print_ranked_members()
@@ -387,10 +426,6 @@ try:
 
     if yes_no_prompt('Do you want to see everyone ranked in Bloons Tower Defense Battles 2?(yes/no): '):
         print_game_ranking("BTDB2")
-
-    if yes_no_prompt("Do you want to see who's on what SMP?(yes/no): "):
-        print_SMP_Count()
-
 
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
