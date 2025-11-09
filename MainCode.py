@@ -295,7 +295,7 @@ members = [
         "best_game": "Roblox",
         "ranks_by_game": {"Minecraft": 22, "Fortnite": 22, "Roblox": 18, "Geometry Dash": 21, "BTDB2": 21},
         "WonderousSMP": "No",
-        "Immortal Life": "No"
+        "Immortal Life": "Yes"
     },
     {
         "name": "BeatrixBubblyBianca",
@@ -308,7 +308,7 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 18, "Fortnite": 20, "Roblox": 20, "Geometry Dash": 22, "BTDB2": 22},
         "WonderousSMP": "No",
-        "Immortal Life": "No"
+        "Immortal Life": "Yes"
     }
 ]
 
