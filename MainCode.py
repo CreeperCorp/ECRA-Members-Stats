@@ -243,7 +243,7 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 16, "Fortnite": 18, "Roblox": 20, "Geometry Dash": 15, "BTDB2": 19},
         "WonderousSMP": "No",
-        "Immortal Life": "No"
+        "Immortal Life": "Yes"
     },
     {
         "name": "Anchor",
