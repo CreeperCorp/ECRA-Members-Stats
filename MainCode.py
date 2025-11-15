@@ -100,7 +100,7 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 6, "Fortnite": 6, "Roblox": 6, "Geometry Dash": 6, "BTDB2": 6},
         "WonderousSMP": "No",
-        "Immortal Life": "No"
+        "Immortal Life": "Yes"
     },
     {
         "name": "Finxlly",
