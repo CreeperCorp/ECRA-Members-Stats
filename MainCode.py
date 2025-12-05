@@ -282,7 +282,7 @@ members = [
         "rank": 19,
         "rank2025": 19,
         "rank_history": ["2025: #19 (joined Fall 2025)"],
-        "past_usernames": ["Anchorrrrrr", "Anchorzzz", "ECAnchorrr"],
+        "past_usernames": ["Anchorrrrrr", "Anchorzzz", "ECAnchorrr", "ECRAAnchor", "DoubleABatteries"],
         "skin_mc": None,
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 14, "Fortnite": 21, "Roblox": 24, "Geometry Dash": 19, "BTDB2": 18},
