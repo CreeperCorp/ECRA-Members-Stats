@@ -40,11 +40,11 @@ members = [
     },
     {
         "name": "Ennard",
-        "username": "ECRAExoticEnnard",
+        "username": "ECRAEnnard",
         "rank": 2,
         "rank2025": 2,
         "rank_history": ["2018: #4", "2024: #2"],
-        "past_usernames": ["EqqqEnnard", "ExoticEnnardGG", "EXENNJJERD", "ECRAEnnard", "ECRAMrFeast", "ECRAEnnard", "ECRAExoticEnnard", "OffHandIsA", "IWalkWithQ"],
+        "past_usernames": ["EqqqEnnard", "ExoticEnnardGG", "EXENNJJERD", "ECRAEnnard", "ECRAMrFeast", "ECRAEnnard", "ECRAExoticEnnard", "OffHandIsA", "IWalkWithQ", "ECRAExoticEnnard"],
         "skin_mc": None,
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 2, "Fortnite": 2, "Roblox": 2, "Geometry Dash": 2, "BTDB2": 2},
