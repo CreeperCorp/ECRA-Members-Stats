@@ -26,11 +26,11 @@ print('ECRA accepts members whenever but you have a higher chance to get in if y
 members = [
     {
         "name": "CreepSplotion",
-        "username": "ECRAUnscripted",
+        "username": "ECRAClockWise",
         "rank": 1,
         "rank2025": 1,
         "rank_history": ["#1"],
-        "past_usernames": ["ECRACreeperBot", "ECRAShadowCreep", "ECRACreep", "CreepSplotionYT", "ECRAYungyBot"],
+        "past_usernames": ["ECRACreeperBot", "ECRAShadowCreep", "ECRACreep", "CreepSplotionYT", "ECRAYungyBot", "ECRAUnscripted],
         "skin_mc": "https://namemc.com/profile/ECRAYungyBot.1",
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 1, "Fortnite": 1, "Roblox": 1, "Geometry Dash": 1, "BTDB2": 1},
