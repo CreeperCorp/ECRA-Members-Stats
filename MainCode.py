@@ -35,7 +35,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 1, "Fortnite": 1, "Roblox": 1, "Geometry Dash": 1, "BTDB2": 1},
         "WonderousSMP": "Yes",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Ennard",
@@ -48,7 +49,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 2, "Fortnite": 2, "Roblox": 2, "Geometry Dash": 2, "BTDB2": 2},
         "WonderousSMP": "Yes",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "ReapSplotion",
@@ -61,7 +63,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 3, "Fortnite": 4, "Roblox": 3, "Geometry Dash": 3, "BTDB2": 3},
         "WonderousSMP": "Yes",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Division",
@@ -74,7 +77,8 @@ members = [
         "best_game": "Fortnite",
         "ranks_by_game": {"Minecraft": 4, "Fortnite": 3, "Roblox": 4, "Geometry Dash": 4, "BTDB2": 4},
         "WonderousSMP": "Yes",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Giggles",
@@ -87,7 +91,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 5, "Fortnite": 5, "Roblox": 5, "Geometry Dash": 7, "BTDB2": 8},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Quotient",
@@ -100,7 +105,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 6, "Fortnite": 6, "Roblox": 6, "Geometry Dash": 6, "BTDB2": 6},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Finxlly",
@@ -113,7 +119,8 @@ members = [
         "best_game": "Fortnite",
         "ranks_by_game": {"Minecraft": 8, "Fortnite": 9, "Roblox": 7, "Geometry Dash": 9, "BTDB2": 9},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Quilver",
@@ -126,7 +133,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 9, "Fortnite": 10, "Roblox": 8, "Geometry Dash": 10, "BTDB2": 5},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
     "name": "PolyPePtide",
@@ -139,7 +147,8 @@ members = [
         "best_game": "Fortnite",
         "ranks_by_game": {"Minecraft": 15, "Fortnite": 7, "Roblox": 13, "Geometry Dash": 11, "BTDB2": 11},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Temp0rary",
@@ -152,7 +161,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 10, "Fortnite": 13, "Roblox": 9, "Geometry Dash": 14, "BTDB2": 13},
         "WonderousSMP": "Yes",
-        "Immortal Life": "No"
+        "Immortal Life": "No",
+        "QuantumSMP": "No"
     },
     {
         "name": "UnScr1pted",
@@ -165,7 +175,8 @@ members = [
         "best_game": "BTDB2",
         "ranks_by_game": {"Minecraft": 11, "Fortnite": 14, "Roblox": 10, "Geometry Dash": 15, "BTDB2": 7},
         "WonderousSMP": "Yes",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "Yes"
     },
     {
         "name": "ClockWise",
@@ -178,7 +189,8 @@ members = [
         "best_game": "Geometry Dash",
         "ranks_by_game": {"Minecraft": 12, "Fortnite": 15, "Roblox": 12, "Geometry Dash": 8, "BTDB2": 10},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "aXc3L",
@@ -191,7 +203,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 16, "Fortnite": 17, "Roblox": 17, "Geometry Dash": 17, "BTDB2": 12},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "CreepYT",
@@ -204,7 +217,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 7, "Fortnite": 16, "Roblox": 11, "Geometry Dash": 12, "BTDB2": 14},
         "WonderousSMP": "Yes",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "XRayz",
@@ -217,7 +231,8 @@ members = [
         "best_game": "Fortnite",
         "ranks_by_game": {"Minecraft": 18, "Fortnite": 8, "Roblox": 15, "Geometry Dash": 13, "BTDB2": 15},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "R3zzignation",
@@ -230,7 +245,8 @@ members = [
         "best_game": "Fortnite",
         "ranks_by_game": {"Minecraft": 20, "Fortnite": 11, "Roblox": 18, "Geometry Dash": 20, "BTDB2": 16},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "R3zz0lution",
@@ -243,7 +259,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 13, "Fortnite": 12, "Roblox": 19, "Geometry Dash": 18, "BTDB2": 17},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Velocity",
@@ -256,7 +273,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 17, "Fortnite": 19, "Roblox": 21, "Geometry Dash": 16, "BTDB2": 20},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Anchor",
@@ -269,7 +287,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 14, "Fortnite": 21, "Roblox": 24, "Geometry Dash": 19, "BTDB2": 18},
         "WonderousSMP": "Yes",
-        "Immortal Life": "No"
+        "Immortal Life": "No",
+        "QuantumSMP": "Yes"
     },
     {
         "name": "Batchi",
@@ -282,7 +301,8 @@ members = [
         "best_game": "Fortnite",
         "ranks_by_game": {"Minecraft": 22, "Fortnite": 18, "Roblox": 22, "Geometry Dash": 21, "BTDB2": 19},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Dash",
@@ -295,7 +315,8 @@ members = [
         "best_game": "Roblox",
         "ranks_by_game": {"Minecraft": 24, "Fortnite": 20, "Roblox": 14, "Geometry Dash": 23, "BTDB2": 23},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "XxFun",
@@ -308,7 +329,8 @@ members = [
         "best_game": "Geometry Dash",
         "ranks_by_game": {"Minecraft": 23, "Fortnite": 23, "Roblox": 16, "Geometry Dash": 5, "BTDB2": 22},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "Joc3e",
@@ -321,7 +343,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 19, "Fortnite": 22, "Roblox": 25, "Geometry Dash": 22, "BTDB2": 21},
         "WonderousSMP": "Yes",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "VeeVanessa",
@@ -334,7 +357,8 @@ members = [
         "best_game": "Roblox",
         "ranks_by_game": {"Minecraft": 25, "Fortnite": 25, "Roblox": 20, "Geometry Dash": 24, "BTDB2": 24},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     },
     {
         "name": "BeatrixBubblyBianca",
@@ -347,7 +371,8 @@ members = [
         "best_game": "Minecraft",
         "ranks_by_game": {"Minecraft": 21, "Fortnite": 24, "Roblox": 23, "Geometry Dash": 25, "BTDB2": 25},
         "WonderousSMP": "No",
-        "Immortal Life": "Yes"
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
     }
 ]
 
@@ -398,6 +423,7 @@ def print_member_stats(member):
         # Print SMP statuses
         print(f"WonderousSMP status: {member.get('WonderousSMP', 'Unknown')}")
         print(f"Immortal Life status: {member.get('Immortal Life', 'Unknown')}")
+        print(f"QuantumSMP status: {member.get('QuantumSMP', 'Unknown')}")
         if member.get('rank_history'):
             if yes_no_prompt(f"Do you want to see {member.get('name', 'Unknown')}'s rank history?(yes/no): "):
                 for rh in member.get('rank_history', []):
@@ -440,7 +466,8 @@ def print_SMP_Count():
         name = member.get('name', 'Unknown')
         wonderous = member.get('WonderousSMP', 'No')
         immortal = member.get('Immortal Life', 'No')
-        print(f"{name}: WonderousSMP = {wonderous}, Immortal Life = {immortal}")
+        quantum = member.get('QuantumSMP', 'No')
+        print(f"{name}: WonderousSMP = {wonderous}, Immortal Life = {immortal}, QuantumSMP = {quantum}")
 
 try:
     if yes_no_prompt('Do you want a list of all ECRA members ranked?(yes/no): '):
