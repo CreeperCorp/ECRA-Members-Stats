@@ -374,6 +374,62 @@ members = [
         "Immortal Life": "Yes",
         "QuantumSMP": "No"
     }
+    {
+        "name": "Potent",
+        "username": "ECRAPotent",
+        "rank": 26,
+        "rank2025": 26,
+        "rank_history": ["2026: 26 (joined Spring 2026)"],
+        "past_usernames": None
+        "skin_mc": None,
+        "best_game": "Minecraft",
+        "ranks_by_game": {"Minecraft": 26, "Fortnite": 26, "Roblox": 26, "Geometry Dash": 26, "BTDB2": 26},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
+    }
+    {
+        "name": "Ambitioner",
+        "username": "ECRAAmbitioner",
+        "rank": 27,
+        "rank2025": 27,
+        "rank_history": ["2026: 27 (joined Spring 2026)"],
+        "past_usernames": None
+        "skin_mc": None,
+        "best_game": "Minecraft",
+        "ranks_by_game": {"Minecraft": 27, "Fortnite": 27, "Roblox": 27, "Geometry Dash": 27, "BTDB2": 27},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
+    }
+    {
+        "name": "Unique",
+        "username": "ECRAUnique",
+        "rank": 28,
+        "rank2025": 28,
+        "rank_history": ["2026: 28 (joined Spring 2026)"],
+        "past_usernames": None
+        "skin_mc": None,
+        "best_game": "Minecraft",
+        "ranks_by_game": {"Minecraft": 28, "Fortnite": 28, "Roblox": 28, "Geometry Dash": 28, "BTDB2": 28},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
+    }
+    {
+        "name": "UnSpoken",
+        "username": "ECRAUnSpoken",
+        "rank": 29,
+        "rank2025": 29,
+        "rank_history": ["2026: 29 (joined Spring 2026)"],
+        "past_usernames": None
+        "skin_mc": None,
+        "best_game": "Minecraft",
+        "ranks_by_game": {"Minecraft": 29, "Fortnite": 29, "Roblox": 29, "Geometry Dash": 29, "BTDB2": 29},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
+    }
 ]
 
 # Timeline of member acceptance
@@ -387,6 +443,7 @@ acceptance_timeline = [
     {"year": 2023, "accepted": 0},
     {"year": 2024, "accepted": 0},
     {"year": 2025, "accepted": 21},
+    {"year": 2026, "accepted": 4},
 ]
 
 def print_ranked_members():
