@@ -430,6 +430,34 @@ members = [
         "Immortal Life": "Yes",
         "QuantumSMP": "No"
     }
+    {
+        "name": "Hopeless",
+        "username": "ECRAHopeless",
+        "rank": 30,
+        "rank2025": 30,
+        "rank_history": ["2026: 30 (joined Spring 2026)"],
+        "past_usernames": [],
+        "skin_mc": None,
+        "best_game": "Fortnite",
+        "ranks_by_game": {"Minecraft": 30, "Fortnite": 30, "Roblox": 30, "Geometry Dash": 30, "BTDB2": 30},
+        "WonderousSMP": "No",
+        "Immortal Life": "No",
+        "QuantumSMP": "No"
+    }
+    {
+        "name": "Bella",
+        "username": "ECRABellaBella",
+        "rank": 31,
+        "rank2025": 31,
+        "rank_history": ["2026: 31 (joined Spring 2026)"],
+        "past_usernames": [],
+        "skin_mc": None,
+        "best_game": "Fortnite",
+        "ranks_by_game": {"Minecraft": 31, "Fortnite": 31, "Roblox": 31, "Geometry Dash": 31, "BTDB2": 31},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
+    }
 ]
 
 # Timeline of member acceptance
@@ -443,7 +471,7 @@ acceptance_timeline = [
     {"year": 2023, "accepted": 0},
     {"year": 2024, "accepted": 0},
     {"year": 2025, "accepted": 21},
-    {"year": 2026, "accepted": 4},
+    {"year": 2026, "accepted": 6},
 ]
 
 def print_ranked_members():
