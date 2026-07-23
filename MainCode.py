@@ -458,6 +458,48 @@ members = [
         "Immortal Life": "Yes",
         "QuantumSMP": "No"
     }
+    {
+        "name": "Uranium",
+        "username": "ECRAUranium",
+        "rank": 32,
+        "rank2025": 32,
+        "rank_history": ["2026: 32 (joined Summer 2026)"],
+        "past_usernames": [],
+        "skin_mc": None,
+        "best_game": "Minecraft",
+        "ranks_by_game": {"Minecraft": 32, "Fortnite": 32, "Roblox": 32, "Geometry Dash": 32, "BTDB2": 32},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
+    }
+    {
+        "name": "Virus",
+        "username": "ECRAVirus",
+        "rank": 33,
+        "rank2025": 33,
+        "rank_history": ["2026: 33 (joined Summer 2026)"],
+        "past_usernames": [],
+        "skin_mc": None,
+        "best_game": "Minecraft",
+        "ranks_by_game": {"Minecraft": 33, "Fortnite": 33, "Roblox": 33, "Geometry Dash": 33, "BTDB2": 33},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
+    }
+    {
+        "name": "Crystal",
+        "username": "ECRACrystal",
+        "rank": 34,
+        "rank2025": 34,
+        "rank_history": ["2026: 34 (joined Summer 2026)"],
+        "past_usernames": [],
+        "skin_mc": None,
+        "best_game": "Minecraft",
+        "ranks_by_game": {"Minecraft": 34, "Fortnite": 34, "Roblox": 34, "Geometry Dash": 34, "BTDB2": 34},
+        "WonderousSMP": "No",
+        "Immortal Life": "Yes",
+        "QuantumSMP": "No"
+    }
 ]
 
 # Timeline of member acceptance
@@ -471,7 +513,7 @@ acceptance_timeline = [
     {"year": 2023, "accepted": 0},
     {"year": 2024, "accepted": 0},
     {"year": 2025, "accepted": 21},
-    {"year": 2026, "accepted": 6},
+    {"year": 2026, "accepted": 9},
 ]
 
 def print_ranked_members():
